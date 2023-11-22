@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("img/bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: "Nunito Sans", sans-serif;
+}
+a {
+  color: #423f32 !important;
+}
+h2 {
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.bg-white {
+  background: #fff;
+  padding: 50px;
+  color: #423f32;
+  height: 100vh;
+}
+/* .teste {
+  background-color: yellow;
+  width: 100%;
+  height: 100%;
+} */
+
+.tabela-meses {
+  overflow-y: scroll;
+  height: 150px;
+  margin-top: 130px !important;
+  background-color: white;
+}
+.testedois {
+  height: 100vh;
+  width: 100%;
+  padding-top: 60px;
+}
+.header {
+  position: fixed;
+  top: 0;
+  width: 72.4%;
+  background-color: #cdcfc0;
+  padding-bottom: 15px;
+  padding-top: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  z-index: 1000;
+}
+.container {
+  margin-top: 100px;
+  padding-top: 20px;
+  height: 100%;
+}
+.bege {
+  background: #bcbeac;
+  text-align: center;
+  border: 3px solid #fff;
+  height: 170px;
+}
+.verde {
+  background: #75b687;
+  text-align: center;
+  border: 3px solid #fff;
+  height: 170px;
+}
+.amarelo {
+  background: #bec057;
+  text-align: center;
+  border: 3px solid #fff;
+  height: 170px;
+}
+.vermelho {
+  background: #c29a9a;
+  text-align: center;
+  border: 3px solid #fff;
+  height: 170px;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #bcbeac;
+  cursor: pointer;
+}
+.list-group li {
+  border: none;
+}
+.mb-50 {
+  margin-bottom: 50px;
+}

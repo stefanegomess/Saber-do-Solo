@@ -1,0 +1,15 @@
+.bg-white {
+  background: #fff;
+  padding: 50px;
+  color: #423f32;
+}
+
+.container {
+  padding-top: 300px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.form-control {
+  width: 400px;
+}
